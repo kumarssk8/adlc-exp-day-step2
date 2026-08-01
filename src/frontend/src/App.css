@@ -1,0 +1,159 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  padding: 24px 16px 40px;
+}
+
+.header {
+  text-align: center;
+}
+
+.sub {
+  max-width: 720px;
+  margin: 0 auto;
+  color: var(--text);
+  opacity: 0.95;
+}
+
+.grid {
+  width: 1126px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+  .span2 {
+    grid-column: auto;
+  }
+}
+
+.card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 18px;
+  background: rgba(255, 255, 255, 0.6);
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    background: rgba(22, 23, 29, 0.6);
+  }
+}
+
+.span2 {
+  grid-column: span 2;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+input {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-h);
+  outline: none;
+}
+
+input:focus {
+  border-color: rgba(170, 59, 255, 0.6);
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.primary {
+  margin-top: 2px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background: var(--accent-bg);
+  color: var(--accent);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.primary:hover {
+  border-color: var(--accent-border);
+  box-shadow: var(--shadow);
+}
+
+.error {
+  border: 1px solid rgba(255, 80, 80, 0.35);
+  background: rgba(255, 80, 80, 0.08);
+  color: #c81d25;
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.result {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.kv {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+}
+
+@media (max-width: 900px) {
+  .kv {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.k {
+  color: var(--text);
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+.v {
+  font-weight: 700;
+  margin-top: 4px;
+  color: var(--text-h);
+}
+
+.mono {
+  font-family: var(--mono);
+  text-align: left;
+  color: var(--text-h);
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  word-break: break-all;
+}
+
+.hint {
+  padding: 16px 0;
+  color: var(--text);
+  opacity: 0.9;
+}

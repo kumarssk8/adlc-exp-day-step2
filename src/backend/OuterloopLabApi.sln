@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OuterloopLabApi", "OuterloopLabApi\\OuterloopLabApi.csproj", "{E4E9B9A4-4C3C-4A8A-8A4F-6B9C8D9A7C11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OuterloopLabApi.Tests", "OuterloopLabApi.Tests\\OuterloopLabApi.Tests.csproj", "{A5E7D4E2-8E3C-4C1D-AF7D-6A2D0E6C2C1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4E9B9A4-4C3C-4A8A-8A4F-6B9C8D9A7C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E9B9A4-4C3C-4A8A-8A4F-6B9C8D9A7C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E9B9A4-4C3C-4A8A-8A4F-6B9C8D9A7C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E9B9A4-4C3C-4A8A-8A4F-6B9C8D9A7C11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E7D4E2-8E3C-4C1D-AF7D-6A2D0E6C2C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E7D4E2-8E3C-4C1D-AF7D-6A2D0E6C2C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E7D4E2-8E3C-4C1D-AF7D-6A2D0E6C2C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E7D4E2-8E3C-4C1D-AF7D-6A2D0E6C2C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
