@@ -9,7 +9,7 @@ currently convert currency using manual lookups against a third-party
 portal — slow, and it leaves no record for compliance. We need instant,
 self-serve conversion inside our own app, and because these are regulated
 transactions, every conversion must be reconstructable for an auditor on
-demand, not pieced together afterward from emails or spreadsheets.
+demand, not pieced together afterward from emails or spreadsheets. 
 
 **Persona:** Treasury operations analysts at enterprise customers, who
 process multiple cross-border settlements a day and are personally
